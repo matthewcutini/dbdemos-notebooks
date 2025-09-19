@@ -47,7 +47,7 @@ If both are enabled, the connector uses Change Tracking by default.
 For detailed SQL Server configuration steps, refer to [Configure Microsoft SQL Server for ingestion](https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sql-server-source-setup).
 
 ### Step 2: Create Lakeflow Connect Pipeline
-The instructions below are for setting up Lakeflow Connect using the Databricks UI. For alternatives methods such as Databricks Asset Bundles (DABs), the Databricks CLI or notebooks, refer to [Option 2: Other Interfaces](https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sql-server-pipeline?language=Notebook#option-2-other-interfaces).
+The instructions below are for setting up Lakeflow Connect using the Databricks UI. For alternative methods such as Databricks Asset Bundles (DABs), the Databricks CLI, or notebooks, refer to [Option 2: Other Interfaces](https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sql-server-pipeline?language=Notebook#option-2-other-interfaces).
 
 **Via Databricks UI:**
 1. Navigate to **Data Ingestion** in your Databricks workspace
@@ -102,4 +102,4 @@ For complete implementation details, consult the official Databricks documentati
 - [Configure Microsoft SQL Server for ingestion](https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sql-server-source-setup)  
 - [Managed connectors in Lakeflow Connect](https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/)
 
-This setup establishes the foundation for bringing SQL Server data into Databricks, creating the necessary infrastructure for subsequent lakehouse implementations based on OMOP CDM or other data models.
+This setup establishes the foundation for bringing SQL Server data into Databricks for subsequent pipelines to transform the data based on OMOP CDM.
